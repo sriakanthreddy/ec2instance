@@ -10,7 +10,7 @@ ami                ="ami-09479453c5cde9639"
 instance_type      ="t2.micro"
 key_name           ="ubuntu_key"
 vpc_security_group_ids=["${aws_security_group.my_sg.id}"]
-tags {
+tags= {
 name="helloworld"
 }
 }
