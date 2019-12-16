@@ -7,7 +7,7 @@ ami            ="ami-09479453c5cde9639"
 instance_type  ="t2.micro"
 security_groups=["opentoworld"]
 count          =2
-tags {
+tags= {
 name="helloworld"
 }
 }
